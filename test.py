@@ -187,8 +187,8 @@ def plot_weights():
         ax.set_xticks([])
         ax.set_yticks([])
 
-print_accuracy()
 
+print_accuracy()
 plot_example_errors()
 optimize(num_iterations=900)
 print_accuracy()
